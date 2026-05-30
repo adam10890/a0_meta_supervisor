@@ -1,0 +1,2 @@
+# Meta Supervisor has no per-install configuration in MVP.
+# Future: optional `excluded_extra_dirs` list, `max_file_size_mb` override.

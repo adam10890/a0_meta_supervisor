@@ -1,0 +1,15 @@
+name: a0_meta_supervisor
+title: Meta Supervisor — Cross-Project Read-Only Awareness
+description: >
+  Read-only supervisor agent with situational awareness across all projects under
+  usr/projects/. Provides four tools (status, search-files, search-content,
+  chat-summary) for cross-project queries. Strict code-level boundaries: never
+  reads secrets.env, memory/, or impersonates project agents. Stateless — no
+  cache, no DB, scans live on every call.
+version: "1.0.0"
+author: "frantz"
+settings_sections:
+  - agent
+per_project_config: false
+per_agent_config: false
+always_enabled: false
