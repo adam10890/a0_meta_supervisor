@@ -41,4 +41,8 @@ boundaries in code.
 
 ## Child DOX Index
 
-No child AGENTS.md files yet.
+- `helpers/AGENTS.md` — path safety, project discovery, search, and chat scan
+  helpers.
+- `tools/AGENTS.md` — read-only `meta_*` Agent Zero tools.
+- `tests/AGENTS.md` — privacy and helper behavior tests.
+- `prompts/AGENTS.md` — agent-facing tool prompt guidance.
